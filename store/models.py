@@ -5,7 +5,7 @@ class Product(models.Model):
     title = models.CharField(max_length=128)
     code = models.AutoField(primary_key=True)
     price = models.IntegerField()
-    sale = models.BooleanField(blank=True, null=True)
+    sale = models.BooleanField()
     sale_price = models.IntegerField(blank=True, null=True)
     description = models.TextField()
     characteristics = models.TextField()
