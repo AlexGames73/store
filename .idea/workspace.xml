@@ -97,7 +97,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="146" />
     <option name="y" value="37" />
     <option name="width" value="1400" />
@@ -151,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bash.runserver.sh">
+  <component name="RunManager" selected="R.push">
     <configuration name="push.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="online store" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,13 +192,21 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
     </configuration>
+    <configuration name="push" type="RRunConfigurationType" factoryName="R" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/push.R" />
+      <option name="SCRIPT_ARGS" value="" />
+      <option name="WORKING_DIRECTORY_PATH" value="D:\1PROJECTS\Сайты\online store" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+    </configuration>
     <list>
       <item itemvalue="Django server.online store" />
       <item itemvalue="Bash.push.sh" />
       <item itemvalue="Bash.runserver.sh" />
+      <item itemvalue="R.push" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="R.push" />
         <item itemvalue="Bash.runserver.sh" />
         <item itemvalue="Bash.push.sh" />
       </list>
