@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bf35470-ed71-499e-bedc-374b4d79993a" name="Default" comment="" />
+    <list default="true" id="5bf35470-ed71-499e-bedc-374b4d79993a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrates.sh" beforeDir="false" afterPath="$PROJECT_DIR$/migrates.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/push.sh" beforeDir="false" afterPath="$PROJECT_DIR$/push.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runserver.sh" beforeDir="false" afterPath="$PROJECT_DIR$/runserver.sh" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +37,31 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/store/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runserver.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="migrates.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/migrates.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="push.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/push.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runserver.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runserver.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -59,8 +82,8 @@
         <option value="$PROJECT_DIR$/store/admin.py" />
         <option value="$PROJECT_DIR$/store/models.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/push.sh" />
         <option value="$PROJECT_DIR$/migrates.sh" />
+        <option value="$PROJECT_DIR$/push.sh" />
         <option value="$PROJECT_DIR$/runserver.sh" />
       </list>
     </option>
@@ -74,8 +97,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="623" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="146" />
     <option name="y" value="37" />
     <option name="width" value="1400" />
     <option name="height" value="955" />
@@ -277,24 +300,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/migrates.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/push.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/store/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -302,6 +311,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrates.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
