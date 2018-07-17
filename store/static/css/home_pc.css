@@ -1,0 +1,71 @@
+.header {
+    --radius: 20px;
+    border-bottom-left-radius: var(--radius);
+    -moz-border-radius-bottomleft: var(--radius);
+    -webkit-border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+    -moz-border-radius-bottomright: var(--radius);
+    -webkit-border-bottom-right-radius: var(--radius);
+    height: 120px;
+    min-width: 500px;
+    max-width: 1000px;
+    background: gray;
+    box-shadow: 2px 2px 4px black;
+    z-index: 9999;
+}
+
+.header p {
+    font-family: "Dosis", serif;
+    font-size: 72px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    min-width: 500px;
+    left: 0;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 3px rgba(202, 202, 202, 0.7);
+    user-select: none;
+    z-index: 9999;
+}
+
+.boxa {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    z-index: 9999;
+}
+
+.menu_btn {
+    background: url("https://png.icons8.com/ios-glyphs/70/000000/menu.png") no-repeat center center;
+    height: 120px;
+    width: 120px;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    z-index: 9999;
+}
+.menu_btn:hover{
+    background: url("https://png.icons8.com/ios-glyphs/70/848484/menu.png") no-repeat center center;
+}
+.menu_back_btn {
+    background: url("https://png.icons8.com/ios/70/000000/delete-sign-filled.png") no-repeat center center;
+    height: 80px;
+    width: 80px;
+}
+.menu_back_btn:hover{
+    background: url("https://png.icons8.com/ios/70/848484/delete-sign-filled.png") no-repeat center center;
+}
+
+.menu {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    background-color: #c2c2c2;
+    margin-left: -400px;
+    z-index: 9999;
+}
