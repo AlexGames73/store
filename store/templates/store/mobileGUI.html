@@ -1,0 +1,28 @@
+{% load staticfiles %}
+<div class="boxa">
+    <div class="row justify-content-center">
+        <div class="header">
+            <p>Online shop (mob)</p>
+        </div>
+    </div>
+</div>
+<div class="menu_btn" onclick="menu_open();"></div>
+<div class="menu">
+    <div class="container container-fluid">
+        <div class="row justify-content-between">
+            <div class="menu_back_btn" onclick="menu_close();"></div>
+            <div class="col row justify-content-end">
+                {% if user.is_authenticated %}
+                    <div class="col-auto h-100"><p class="username style-p">{{ user.username }}</p></div>
+                    <div class="settings_btn" onclick="location.href='{% url 'settings' %}'"></div>
+                    <div class="logout-btn" onclick="location.href='{% url 'logout' %}'"></div>
+                {% else %}
+                    <div class="col-auto h-100"><p class="username style-p">Гость</p></div>
+                    <div class="register-btn" onclick="location.href='{% url 'register' %}'"></div>
+                    <div class="login-btn" onclick="location.href='{% url 'login' %}'"></div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+<script src="{% static "js/home_m.js" %}"></script>

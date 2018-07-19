@@ -1,0 +1,42 @@
+{% extends "store/base.html" %}
+{% load staticfiles %}
+
+{###############################################}
+{% block menu %}
+    {% if is_mobile %}
+        {% include "store/mobileGUI.html" %}
+    {% else %}
+        {% include "store/pcGUI.html" %}
+    {% endif %}
+{% endblock %}
+{% block head %}
+    {% if is_mobile %}
+    <meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=0.7">
+    <link rel="stylesheet" href="{% static 'css/home_m.css' %}" type="text/css" />
+    {% else %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/home_pc.css' %}" type="text/css" />
+    {% endif %}
+{% endblock %}
+{###############################################}
+
+{% block title %}
+    <title>Login</title>
+{% endblock %}
+
+{% block body %}
+    <p class="style-p">Login</p>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+        {% for field in form %}
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" style="width: 100px">{{ field.label }}</span>
+                </div>
+                {{ field }}
+            </div>
+        {% endfor %}
+        <button class="login btn btn-dark" type="submit">Login</button>
+    </form>
+{% endblock %}

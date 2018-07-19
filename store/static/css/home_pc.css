@@ -1,0 +1,175 @@
+.header {
+    --radius: 20px;
+    border-bottom-left-radius: var(--radius);
+    -moz-border-radius-bottomleft: var(--radius);
+    -webkit-border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+    -moz-border-radius-bottomright: var(--radius);
+    -webkit-border-bottom-right-radius: var(--radius);
+    height: 100px;
+    width: 50%;
+    background: gray;
+    box-shadow: 2px 2px 4px black;
+    z-index: 9999;
+}
+
+.header p {
+    font-family: "Dosis", serif;
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    min-width: 500px;
+    left: 0;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 3px rgba(202, 202, 202, 0.7);
+    user-select: none;
+    z-index: 9999;
+}
+
+p.style-p, form label, form button {
+    font-family: "Dosis", serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+    user-select: none;
+    z-index: 9999;
+}
+
+.username {
+    margin-top: 15px;
+}
+
+form {
+    padding: 10px;
+}
+
+.boxa {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    z-index: 9999;
+}
+
+.menu_btn {
+    background: url("../images/menu.png") no-repeat center center;
+    background-size: 50px 50px;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    text-align: center;
+    left: 25%;
+    z-index: 9999;
+}
+.menu_btn:hover{
+    background: url("../images/menu-hover.png") no-repeat center center;
+    background-size: 50px 50px;
+}
+.menu_back_btn {
+    background: url("../images/menu-back.png") no-repeat center center;
+    background-size: 50px 50px;
+    height: 100px;
+    width: 100px;
+}
+.menu_back_btn:hover{
+    background: url("../images/menu-back-hover.png") no-repeat center center;
+    background-size: 50px 50px;
+}
+.settings_btn {
+    background: url("../images/settings.png") no-repeat center center;
+    -webkit-background-size: 50px;
+    background-size: 50px;
+    height: 100px;
+    width: 100px;
+}
+.settings_btn:hover {
+    background: url("../images/settings-hover.png") no-repeat center center;
+    background-size: 50px 50px;
+}
+.login-btn {
+    background: url("../images/sign-in.png") no-repeat center center;
+    -webkit-background-size: 50px;
+    background-size: 50px;
+    height: 100px;
+    width: 100px;
+}
+.login-btn:hover {
+    background: url("../images/sign-in-hover.png") no-repeat center center;
+    background-size: 50px 50px;
+}
+.logout-btn {
+    background: url("../images/sign-out.png") no-repeat center center;
+    -webkit-background-size: 50px;
+    background-size: 50px;
+    height: 100px;
+    width: 100px;
+}
+.logout-btn:hover {
+    background: url("../images/sign-out-hover.png") no-repeat center center;
+    background-size: 50px 50px;
+}
+.register-btn {
+    background: url("../images/sign-up.png") no-repeat center center;
+    -webkit-background-size: 50px;
+    background-size: 50px;
+    height: 100px;
+    width: 100px;
+}
+.register-btn:hover {
+    background: url("../images/sign-up-hover.png") no-repeat center center;
+    background-size: 50px 50px;
+}
+
+.menu {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 600px;
+    height: 100%;
+    background-color: #c2c2c2;
+    margin-left: -600px;
+    z-index: 9999;
+}
+
+body {
+    background-image: url("../images/background.jpeg");
+}
+
+.bodya {
+    height: auto;
+    position: absolute;
+    width: 50%;
+    top: 150px;
+    left: 25%;
+    padding: 10px;
+    background: white;
+}
+
+@media (max-width: 1220px) {
+    body {
+        width: 1200px;
+    }
+    .boxa {
+        width: 1200px;
+    }
+    .menu_btn {
+        left: 296px;
+    }
+    .bodya {
+        left: 300px;
+        width: 600px;
+    }
+}
+
+a {
+    user-select: none;
+    text-decoration: none!important;
+}
+
+a:hover {
+    cursor: pointer;
+}
