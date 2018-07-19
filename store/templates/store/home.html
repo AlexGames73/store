@@ -1,0 +1,29 @@
+{% extends 'store/base.html' %}
+{% load staticfiles %}
+
+{###############################################}
+{% block menu %}
+    {% if is_mobile %}
+        {% include "store/mobileGUI.html" %}
+    {% else %}
+        {% include "store/pcGUI.html" %}
+    {% endif %}
+{% endblock %}
+{% block head %}
+    {% if is_mobile %}
+    <meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=0.7">
+    <link rel="stylesheet" href="{% static 'css/home_m.css' %}" type="text/css" />
+    {% else %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/home_pc.css' %}" type="text/css" />
+    {% endif %}
+{% endblock %}
+{###############################################}
+
+{% block title %}
+    <title>Главная</title>
+{% endblock %}
+
+{% block body %}
+    <div style="height: 4000px;"></div>
+{% endblock %}

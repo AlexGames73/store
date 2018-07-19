@@ -3,6 +3,7 @@
     width: 100%;
     background: gray;
     box-shadow: 2px 2px 4px black;
+    z-index: 9999;
 }
 
 .header p {
@@ -13,12 +14,26 @@
     position: absolute;
     text-align: center;
     width: 100%;
-    min-width: 500px;
     top: 0;
     left: 0;
     color: rgba(0, 0, 0, 0.6);
     text-shadow: 2px 2px 3px rgba(202, 202, 202, 0.7);
     user-select: none;
+    z-index: 9999;
+}
+
+p.style-p {
+    font-family: "Dosis", serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+    user-select: none;
+    z-index: 9999;
+}
+
+.username.style-p {
+    margin-top: 15px;
 }
 
 .boxa {
@@ -26,17 +41,55 @@
     text-align: center;
     width: 100%;
     left: 0;
-    z-index: -1;
+    top: 0;
+    z-index: 9999;
 }
 
 .menu_btn {
-    background: url("https://png.icons8.com/ios-glyphs/50/000000/menu.png") no-repeat center center;
+    background: url("../images/menu.png") no-repeat center center;
+    -webkit-background-size: 50px;
+    background-size: 50px;
     height: 80px;
     width: 80px;
     position: fixed;
     text-align: center;
     left: 0;
     z-index: 9999;
+}
+.menu_back_btn {
+    background: url("../images/menu-back.png") no-repeat center center;
+    -webkit-background-size: 70px;
+    background-size: 70px;
+    height: 80px;
+    width: 80px;
+}
+.settings_btn {
+    background: url("../images/settings.png") no-repeat center center;
+    -webkit-background-size: 70px;
+    background-size: 70px;
+    height: 80px;
+    width: 80px;
+}
+.login-btn {
+    background: url("../images/sign-in.png") no-repeat center center;
+    -webkit-background-size: 70px;
+    background-size: 70px;
+    height: 80px;
+    width: 80px;
+}
+.logout-btn {
+    background: url("../images/sign-out.png") no-repeat center center;
+    -webkit-background-size: 70px;
+    background-size: 70px;
+    height: 80px;
+    width: 80px;
+}
+.register-btn {
+    background: url("../images/sign-up.png") no-repeat center center;
+    -webkit-background-size: 70px;
+    background-size: 70px;
+    height: 80px;
+    width: 80px;
 }
 
 .menu {
@@ -47,5 +100,22 @@
     width: 100%;
     height: 100%;
     margin-left: -100%;
-    background: #c2c2c2;
+    background-color: #c2c2c2;
+    z-index: 9999;
+}
+
+.row {
+    height: 80px;
+}
+
+body {
+    background-image: url("../images/background.jpeg");
+}
+
+.bodya {
+    height: auto;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    padding: 10px;
 }

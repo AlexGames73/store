@@ -27,12 +27,12 @@ window.onscroll = function() {
 
 function menu_open() {
     $('.menu').animate({
-        'marginLeft': '+=400px'
+        'marginLeft': '+=600px'
     }, 1000);
 }
 
 function menu_close() {
     $('.menu').animate({
-        'marginLeft': '-=400px'
+        'marginLeft': '-=600px'
     }, 1000);
 }
